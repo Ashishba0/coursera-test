@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table No.1</title>
+    <style>
+        h1 {
+            background-color: orange;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body bgcolor="salmon" color="blue">
+
+    <h1>The World of Fruit</h1>
+    <h1>Fruit Survey</h1>
+
+    <form>
+        <center>
+            Name: &nbsp; &nbsp;
+
+            <input type="text" id="Name" required Size=15 Maxlength=20>
+
+            <br><br>
+
+            Address:
+
+            <input type="text" id="Address" required Size=15 Maxlength=40>
+
+            <br><br>
+
+            Email: &nbsp;&nbsp;
+
+            <input type="text" id="Email" required Size=15 Maxlength=15>
+
+            <br><br>
+
+            How many pieces of fruit do you eat per day ?
+        </center>
+
+        <center>
+            <input type="radio" name="howMany" value="zero"> 0<br>
+            <input type="radio" name="howMany" value="one"> 1<br>
+            <input type="radio" name="howMany" value="two"> 2<br>
+            <input type="radio" name="howMany" value="twoplus"> More than 2<br><br>
+        </center>
+
+        <center>
+            <label for="fruits">My favourite Fruit:</label><br><br>
+
+            <select name="favFruit[]" size="4" multiple>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="plum">Plum</option>
+                <option value="pomegranate">Pomegranate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="watermelon">Watermelon</option>
+            </select>
+            <center>Would you like a broucher?
+
+                <input type="checkbox" name="brochure" value="Yes">
+
+                <br><br>
+                <input type="submit" name="submit" value="Submit">
+    </form>
+
+    </center>
+    </form>
+</body>
+
+</html>
